@@ -27,6 +27,7 @@ PINOUT: (change st7735.h file to change the pin configuration)
 Uso:
   Configura el fb para la pantalla: 
   1. modificar /boot/config.txt y reboot:
+  
    framebuffer_width=160
    framebuffer_height=128
    framebuffer_depth=16
