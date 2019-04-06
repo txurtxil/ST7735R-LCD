@@ -31,6 +31,7 @@ Uso:
    framebuffer_height=128
    framebuffer_depth=16
    
+   Nota: podemos poner resoluciiones mas altas como 640x480
    2. Si queremos iniciar en el boot el lcd,copiar el binario "lcd" en /bin y
       editar /etc/rc.local e inculir antes de exit 0:
      
@@ -51,7 +52,8 @@ Uso:
     sudo ./run
 
 
-	 Now tty1 should be mapped to the LCD.. You can type on pi keyboad connected to usb/usb hub to see changes on display.
+	 Now tty1 should be mapped to the LCD.. You can type on pi keyboad
+	 connected to usb/usb hub to see changes on display.
 
 	 You can try ./video1.sh to play test1 video sample.
 	 Similarly other examples (video2.sh, rtsp_test.sh etc)
