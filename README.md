@@ -28,7 +28,15 @@ Uso:
    framebuffer_width=160
    framebuffer_height=128
    framebuffer_depth=16
-	
+   
+   2. Si queremos iniciar en el boot el lcd,copiar el binario "lcd" en /bin y
+      editar /etc/rc.local e inculir antes de exit 0:
+     
+     do
+        sleep 1
+        sudo /bin/lcd
+     done
+
 
   enable spi for first time using "sudo raspi-config"
    
