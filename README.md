@@ -31,7 +31,7 @@ Uso:
    framebuffer_height=128
    framebuffer_depth=16
    
-   Nota: podemos poner resoluciiones mas altas como 640x480
+   Nota: podemos poner resoluciiones mas altas como 640x480, 320x240, etc...
    2. Si queremos iniciar en el boot el lcd,copiar el binario "lcd" en /bin y
       editar /etc/rc.local e inculir antes de exit 0:
      
