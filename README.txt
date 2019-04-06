@@ -1,4 +1,4 @@
-![Raspi Zero GPIO ](https://github.com/txurtxil/ST7735R-LCD/blob/master/rpi_zero_io_pinouts.jpg "Raspi Zero GPIO")
+![Raspi Zero GPIO ](https://raw.githubusercontent.com/txurtxil/ST7735R-LCD/master/rpi_zero_io_pinouts.jpg "Raspi Zero GPIO")
 
 This is a userspace code for mapping raspberry pi default frame buffer (/dev/fb0) to a tft with st7735 driver. CPU USAGE = 3.2 to 4.5% at 20fps.
 FPS can be increased by modifying the usleep(50000) value in main.c and also modifying the spi speed in st7735.c. 
