@@ -29,7 +29,9 @@ Uso:
   1. modificar /boot/config.txt y reboot:
   
    framebuffer_width=160
+   
    framebuffer_height=128
+   
    framebuffer_depth=16
    
    Nota: podemos poner resoluciiones mas altas como 640x480, 320x240, etc...
