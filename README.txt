@@ -20,7 +20,12 @@ PINOUT: (change st7735.h file to change the pin configuration)
 
 Usage:
 
-        Configura el fb para la pantalla: sudo fbset -vxres 160 -vyres 128 -xres 160 -yres 128
+        Configura el fb para la pantalla: 
+	1. Me funciona algo desde /boot/config.txt:
+	   framebuffer_width=160
+           framebuffer_height=128
+
+	2.sudo fbset -vxres 160 -vyres 128 -xres 160 -yres 128
 
 	 enable spi for first time using "sudo raspi-config"
    
