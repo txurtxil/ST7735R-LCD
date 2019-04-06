@@ -12,6 +12,8 @@ Advantage of this application:
 	 No need to create additional frame buffer.
 
 
+![Raspi Zero GPIO ](https://3.bp.blogspot.com/-vDlWZNzxu_k/XKd1quyoLvI/AAAAAAAAxMM/MOrpUz_p-TUvslAun3eVEdbaKADigilcwCLcBGAs/s1600/tft_1.8.PNG "Raspi Zero GPIO")
+
 PINOUT: (change st7735.h file to change the pin configuration)
 	#define CS_PIN  8UL
 	#define A0_PIN  24UL
